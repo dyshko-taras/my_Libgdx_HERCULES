@@ -268,6 +268,7 @@ public class GameScreenG1 extends ScreenAdapter {
             }, 0.5f, 2f);
         } else {
             stopAutoSpin();
+            timerAutoSpin.isEmpty();
         }
     }
 

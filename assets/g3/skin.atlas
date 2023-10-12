@@ -1,0 +1,178 @@
+
+skin.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back
+  rotate: false
+  xy: 1, 839
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+skin2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back_ls
+  rotate: false
+  xy: 1, 839
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+skin3.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back_gameover_lose
+  rotate: false
+  xy: 1, 839
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+skin4.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+f
+  rotate: false
+  xy: 1, 157
+  size: 506, 238
+  orig: 506, 238
+  offset: 0, 0
+  index: -1
+f88_0
+  rotate: false
+  xy: 1, 397
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+f88_1
+  rotate: false
+  xy: 515, 397
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+f88_2
+  rotate: false
+  xy: 1029, 397
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+b_game_mode_button
+  rotate: false
+  xy: 509, 252
+  size: 405, 143
+  orig: 405, 143
+  offset: 0, 0
+  index: -1
+b_left_button
+  rotate: false
+  xy: 1710, 495
+  size: 141, 232
+  orig: 141, 232
+  offset: 0, 0
+  index: -1
+b_right_button
+  rotate: false
+  xy: 1696, 261
+  size: 141, 232
+  orig: 141, 232
+  offset: 0, 0
+  index: -1
+b_start_button
+  rotate: false
+  xy: 1, 12
+  size: 405, 143
+  orig: 405, 143
+  offset: 0, 0
+  index: -1
+b_strike_button
+  rotate: false
+  xy: 1543, 729
+  size: 200, 180
+  orig: 200, 180
+  offset: 0, 0
+  index: -1
+back_gameover_win
+  rotate: false
+  xy: 1, 911
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+o_fireball_object
+  rotate: false
+  xy: 408, 85
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+o_slider_object
+  rotate: false
+  xy: 1543, 513
+  size: 165, 214
+  orig: 165, 214
+  offset: 0, 0
+  index: -1
+s_1
+  rotate: false
+  xy: 1745, 758
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+s_2
+  rotate: false
+  xy: 916, 244
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+s_3
+  rotate: false
+  xy: 1069, 244
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+s_4
+  rotate: false
+  xy: 1222, 244
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+s_5
+  rotate: false
+  xy: 1375, 244
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+s_6
+  rotate: false
+  xy: 1543, 360
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+b_exit_button
+  rotate: false
+  xy: 1923, 1921
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

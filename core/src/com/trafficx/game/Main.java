@@ -1,9 +1,9 @@
 package com.trafficx.game;
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.trafficx.game.g1.screens.LoadingScreenG1;
+import com.trafficx.game.g3.screens.GameOverScreenG3;
+import com.trafficx.game.g3.screens.GameScreenG3;
+import com.trafficx.game.g3.screens.LoadingScreenG3;
 
 
 public class Main extends Game {
@@ -16,7 +16,7 @@ public class Main extends Game {
 	public void create() {
 		initAssets();
 		setSettings();
-		this.setScreen(new LoadingScreenG1(this));
+		this.setScreen(new GameScreenG3(this));
 	}
 
 	public void render() {
