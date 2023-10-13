@@ -33,15 +33,14 @@ public class GameOverScreenG3 extends ScreenAdapter {
     private Image exitButton;
     private Image startButton;
     private Image gameModeButton;
-    private Label scoreLabel;
 
 
     //Actors
 
 
     //Game
-    private int score = 0;
-    private boolean isWin = false;
+    private final int score;
+    private final boolean isWin;
 
 
     //Levels
@@ -69,7 +68,7 @@ public class GameOverScreenG3 extends ScreenAdapter {
         table1.add(exitButton).padLeft(22.0f).padTop(19.0f).expandY().align(Align.topLeft).colspan(2);
 
         table1.row();
-        scoreLabel = new Label("" + score, skin, "f2");
+        Label scoreLabel = new Label("" + score, skin, "f2");
         scoreLabel.setAlignment(Align.top);
         table1.add(scoreLabel).padBottom(370.0f).align(Align.bottom).colspan(2);
 
@@ -82,8 +81,6 @@ public class GameOverScreenG3 extends ScreenAdapter {
         table.add(table1).minWidth(1920.0f).minHeight(1080.0f).maxWidth(1920.0f).maxHeight(1080.0f);
         stage.addActor(table);
 
-        addMyActors();
-        addActorsInStage();
         setClickListeners();
 
         scoreLabel.setVisible(isWin);
@@ -115,11 +112,6 @@ public class GameOverScreenG3 extends ScreenAdapter {
 
     public void render(float delta) {
         renderCamera();
-        update(delta);
-    }
-
-    private void update(float delta) {
-        updateData();
     }
 
     public void resize(int width, int height) {
@@ -150,14 +142,5 @@ public class GameOverScreenG3 extends ScreenAdapter {
         viewport.update(width, height, true);
     }
     ////////
-
-    private void addMyActors() {
-    }
-
-    private void addActorsInStage() {
-    }
-
-    private void updateData() {
-    }
 }
 

@@ -16,7 +16,7 @@ public class Main extends Game {
 	public void create() {
 		initAssets();
 		setSettings();
-		this.setScreen(new GameScreenG3(this));
+		this.setScreen(new LoadingScreenG3(this));
 	}
 
 	public void render() {

@@ -15,7 +15,6 @@ import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.trafficx.game.Main;
 import com.trafficx.game.g1.tools.GameState;
-import com.trafficx.game.g3.screens.GameScreenG3;
 
 public class LoadingScreenG3 extends ScreenAdapter {
 
@@ -32,17 +31,6 @@ public class LoadingScreenG3 extends ScreenAdapter {
     //Table
     private Image exitButton;
     private Image startButton;
-
-
-    //Actors
-
-
-    //Game
-    private int score = 0;
-    private float timer = 60;
-
-
-    //Levels
 
 
     public LoadingScreenG3(Main main) {
@@ -71,8 +59,6 @@ public class LoadingScreenG3 extends ScreenAdapter {
         table.add(table1).minWidth(1920.0f).minHeight(1080.0f).maxWidth(1920.0f).maxHeight(1080.0f);
         stage.addActor(table);
 
-        addMyActors();
-        addActorsInStage();
         setClickListeners();
     }
 
@@ -95,12 +81,6 @@ public class LoadingScreenG3 extends ScreenAdapter {
 
     public void render(float delta) {
         renderCamera();
-        update(delta);
-    }
-
-    private void update(float delta) {
-        updateTimer(delta);
-        updateData();
     }
 
     public void resize(int width, int height) {
@@ -131,22 +111,4 @@ public class LoadingScreenG3 extends ScreenAdapter {
         viewport.update(width, height, true);
     }
     ////////
-
-
-
-    private void addMyActors() {
-    }
-
-    private void addActorsInStage() {
-    }
-
-    private void updateTimer(float delta) {
-        //if (GameState.getState() == GameState.GAME) {
-        //	timer -= delta;
-        //	timerLabel.setText((int) timer);
-        //}
-    }
-
-    private void updateData() {
-    }
 }

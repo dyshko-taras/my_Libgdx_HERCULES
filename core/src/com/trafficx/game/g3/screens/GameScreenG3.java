@@ -1,7 +1,6 @@
 package com.trafficx.game.g3.screens;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
@@ -25,7 +24,6 @@ import com.trafficx.game.g3.actors.ItemActor;
 import com.trafficx.game.g3.actors.SliderActor;
 
 import java.util.Iterator;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class GameScreenG3 extends ScreenAdapter {
 
@@ -50,18 +48,18 @@ public class GameScreenG3 extends ScreenAdapter {
 
     //Actors
     private SliderActor slider;
-    private Array<FireballActor> fireballs = new Array<>();
-    private Group fireballsGroup = new Group();
-    private Array<ItemActor> items = new Array<>();
-    private Group itemsGroup = new Group();
+    private final Array<FireballActor> fireballs = new Array<>();
+    private final Group fireballsGroup = new Group();
+    private final Array<ItemActor> items = new Array<>();
+    private final Group itemsGroup = new Group();
 
 
     //Game
     private int score = 0;
     private int timeLeft = 61;
     private int life = 3;
-    private Timer timerTimeGame = new Timer();
-    private Timer timerSpawnItems = new Timer();
+    private final Timer timerTimeGame = new Timer();
+    private final Timer timerSpawnItems = new Timer();
 
     //Levels
 
@@ -95,7 +93,7 @@ public class GameScreenG3 extends ScreenAdapter {
         table1.add(rightButton).padRight(66.0f).padTop(334.0f).expandY().align(Align.topRight);
 
         table1.row();
-        timeLeftLabel = new Label("60", skin);
+        timeLeftLabel = new Label("" + timeLeft, skin);
         timeLeftLabel.setAlignment(Align.center);
         table1.add(timeLeftLabel).padLeft(510.0f).padBottom(51.0f).align(Align.bottomLeft).minWidth(256.0f).minHeight(87.0f).maxWidth(256.0f).maxHeight(87.0f);
 
@@ -163,10 +161,10 @@ public class GameScreenG3 extends ScreenAdapter {
 
     public void render(float delta) {
         renderCamera();
-        update(delta);
+        update();
     }
 
-    private void update(float delta) {
+    private void update() {
         updateData();
         checkGameOver();
 //        checkGameOver();
@@ -226,7 +224,7 @@ public class GameScreenG3 extends ScreenAdapter {
                 timeLeft--;
                 timeLeftLabel.setText(String.valueOf(timeLeft));
             }
-        },0,1,60);
+        },0,1);
     }
 
     private void spawnFireball() {
