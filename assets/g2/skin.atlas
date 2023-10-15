@@ -1,0 +1,179 @@
+
+skin.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back_game
+  rotate: false
+  xy: 1, 839
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+skin2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back_gameover_win
+  rotate: false
+  xy: 1, 839
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+skin3.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+f
+  rotate: false
+  xy: 1, 154
+  size: 506, 238
+  orig: 506, 238
+  offset: 0, 0
+  index: -1
+f2_0
+  rotate: false
+  xy: 1, 394
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+f2_1
+  rotate: false
+  xy: 515, 394
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+f2_2
+  rotate: false
+  xy: 1029, 394
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+0
+  rotate: false
+  xy: 1543, 645
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 1543, 492
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 916, 241
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1069, 241
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1222, 241
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1375, 241
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1723, 755
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1696, 602
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1696, 449
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1543, 339
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+b_down_button
+  rotate: false
+  xy: 1543, 798
+  size: 178, 108
+  orig: 178, 108
+  offset: 0, 0
+  index: -1
+b_exit_button
+  rotate: false
+  xy: 408, 82
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+b_game_mode_button
+  rotate: false
+  xy: 1, 9
+  size: 405, 143
+  orig: 405, 143
+  offset: 0, 0
+  index: -1
+b_left_button
+  rotate: false
+  xy: 1849, 521
+  size: 141, 232
+  orig: 141, 232
+  offset: 0, 0
+  index: -1
+b_right_button
+  rotate: false
+  xy: 1696, 215
+  size: 141, 232
+  orig: 141, 232
+  offset: 0, 0
+  index: -1
+b_start_button
+  rotate: false
+  xy: 509, 249
+  size: 405, 143
+  orig: 405, 143
+  offset: 0, 0
+  index: -1
+back_ls
+  rotate: false
+  xy: 1, 908
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1

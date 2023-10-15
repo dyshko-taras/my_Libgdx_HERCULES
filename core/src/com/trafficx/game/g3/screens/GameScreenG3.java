@@ -93,7 +93,7 @@ public class GameScreenG3 extends ScreenAdapter {
         table1.add(rightButton).padRight(66.0f).padTop(334.0f).expandY().align(Align.topRight);
 
         table1.row();
-        timeLeftLabel = new Label("" + timeLeft, skin);
+        timeLeftLabel = new Label("00:" + timeLeft, skin);
         timeLeftLabel.setAlignment(Align.center);
         table1.add(timeLeftLabel).padLeft(510.0f).padBottom(51.0f).align(Align.bottomLeft).minWidth(256.0f).minHeight(87.0f).maxWidth(256.0f).maxHeight(87.0f);
 
@@ -222,7 +222,7 @@ public class GameScreenG3 extends ScreenAdapter {
             @Override
             public void run() {
                 timeLeft--;
-                timeLeftLabel.setText(String.valueOf(timeLeft));
+                timeLeftLabel.setText(String.format("00:%02d", timeLeft));
             }
         },0,1);
     }

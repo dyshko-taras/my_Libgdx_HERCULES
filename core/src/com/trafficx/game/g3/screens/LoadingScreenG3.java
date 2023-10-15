@@ -14,7 +14,6 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.trafficx.game.Main;
-import com.trafficx.game.g1.tools.GameState;
 
 public class LoadingScreenG3 extends ScreenAdapter {
 
@@ -35,7 +34,6 @@ public class LoadingScreenG3 extends ScreenAdapter {
 
     public LoadingScreenG3(Main main) {
         this.main = main;
-        GameState.setState(GameState.MENU);
     }
 
 
