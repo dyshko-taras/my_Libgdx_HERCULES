@@ -195,7 +195,6 @@ public class GameScreenG3 extends ScreenAdapter {
         viewport.apply();
         stage.act();
         stage.draw();
-        System.out.println(timeLeft);
     }
 
     private void resizeCamera(int width, int height) {
@@ -255,7 +254,6 @@ public class GameScreenG3 extends ScreenAdapter {
             for(Iterator<ItemActor> itemIt = items.iterator(); itemIt.hasNext();) {
                 ItemActor item = itemIt.next();
                 if (fireball.getRect().overlaps(item.getRect())) {
-                    System.out.println("overlaps!!!!!!!!!");
                     if (item.getName().equals("s1") || item.getName().equals("s2")) {
                         life--;
                         lifeLabel.setText(String.valueOf(life));
@@ -266,7 +264,6 @@ public class GameScreenG3 extends ScreenAdapter {
                     fireballIt.remove();
                     fireballsGroup.removeActor(fireball);
                     itemsGroup.removeActor(item);
-                    System.out.println("overlaps!!!!!!!!!");
                 }
             }
         }

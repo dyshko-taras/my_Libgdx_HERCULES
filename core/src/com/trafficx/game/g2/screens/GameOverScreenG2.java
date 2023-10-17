@@ -15,8 +15,7 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.trafficx.game.Main;
-import com.trafficx.game.g3.screens.LoadingScreenG3;
-import com.trafficx.game.menu.GameModeScreen;
+import com.trafficx.game.menu.screens.GameModeScreen;
 
 public class GameOverScreenG2 extends ScreenAdapter {
 
